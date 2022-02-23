@@ -1,0 +1,7 @@
+n_inputs: [3, 64, 128]
+n_outputs: [64, 128, 256]
+kernel_size: [7, 5, 5]
+stride: [1, 1, 1]
+padding: [1, 2, 1]
+dilation: [1, 2, 1]
+with_att: False

@@ -1,0 +1,16 @@
+network:
+  name: MultiHeadTaskRegressor
+  config_list: ['single/lstm_2.yml', 'single/lstm_2.yml']
+  losses: ['L1', 'L1']
+  main_loss: "L1"
+  margin_loss: True
+  margin_loss_w: 0
+  w_losses: [1, 1, 1]
+  mode: 'cnn_lstm'
+
+
+
+
+
+  
+

@@ -1,0 +1,9 @@
+network:
+  name: MultiHeadTaskRegressor
+  config_list: ['cnnAttvscnn/regressor_2a.yml']
+  losses: ['L1']
+  main_loss: "L1"
+  margin_loss: True
+  margin_loss_w: 0
+  w_losses: [1, 0]
+  mode: 'cnn'

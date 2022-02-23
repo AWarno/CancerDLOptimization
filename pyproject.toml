@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "cancer-nn"
+version = "0.1.0"
+description = ""
+authors = ["AWarno <anulka.warno@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pytorch-lightning = "^1.5.10"
+click = "^8.0.4"
+pandas = "0.24.2"
+neptune-client = "0.13.1"
+neptune-pytorch-lightning = "1.0.0"
+scikit-learn = "1.0.1"
+lightgbm = "^3.3.2"
+hyperopt = "^0.2.7"
+matplotlib = "^3.5.1"
+neptune-contrib = "^0.28.1"
+numpy = "1.19.5"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+isort = "^5.10.1"
+black = "^22.1.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

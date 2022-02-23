@@ -1,0 +1,4 @@
+channels: [3, 32, 128]
+channel_len: 4
+shapes: [20, 10, 5]
+kernels: [3, 3, 3, 3]
